@@ -6,7 +6,7 @@ module.exports = {
         res.send(heroes)
     },
     bio : function (req,res){
-    let id = req.params.id;
+    let id = req.params.idHeroe;
     let ok = req.params.ok;
     let heroe = heroes.filter((heroe) => {
 		return heroe.id == id
