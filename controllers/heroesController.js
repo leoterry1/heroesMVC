@@ -33,6 +33,6 @@ module.exports = {
 		res.send('Este héroe no fue encontrado :(  pruebe con otro numero de id.');
 	} else {
 		res.send(`Hola, mi nombre es ${heroeSeleccionado.nombre} y soy ${heroeSeleccionado.profesion}`)
-	}
-    }    
+    }
+}   
 }
